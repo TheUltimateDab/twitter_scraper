@@ -14,8 +14,8 @@ const opinionBox = () => {
 
     return (
         <div className="text-box" style= {{ paddingTop: 0}}>
-            <div className="message-box">
-                <h3>inquire sentiments on a topic</h3>
+            <div className="opinion-box">
+                <h1>inquire sentiments on a topic</h1>
                 <div id="opinion-output"></div>
                     <input type="text" id="opinion-input" placeholder="Enter topic name" />
                     <button onClick={getOpinion} className="button" style={{color: "#000", border: "1px solid #000"}}>get public opinion</button>
